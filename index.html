@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Oojmed, a non-profit software development group.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Oojmed</title>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="material.grey-pink.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header" style="transition-duration: 0.5s">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-logo"></div>
+                    <span class="mdl-layout__title">Oojmed</span>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link is-active" href="/">Projects</a>
+                    <a class="mdl-navigation__link" href="about">About</a>
+                    <span style="font-size: 30px; color:gray;">|</span>
+                    <a class="mdl-navigation__link" href="https://blog.oojmed.com">Blog</a>
+                    <span style="font-size: 30px; color:gray;">|</span>
+                    <span style="padding-top: 10px; padding-bottom: 10px;">
+                        <a target="_blank" class="header-icon icon-twitter" href="https://twitter.com/oojmedcom"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a target="_blank" class="header-icon icon-youtube" href="https://www.youtube.com/channel/UCDBUqE0Gd7fl_Pv8fvdqFIA"><i class="fab fa-youtube fa-2x"></i></a>
+                        <a target="_blank" class="header-icon icon-github" href="https://github.com/oojmed"><i class="fab fa-github fa-2x"></i></a>
+                    </span>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link is-active" href="/">Projects</a>
+                <a class="mdl-navigation__link" href="about">About</a>
+            </nav>
+
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"
+                style="width: 100%; bottom: 0; position: absolute;">
+                <a class="mdl-navigation__link" href="https://blog.oojmed.com">Blog</a>
+                <span style="padding-top: 10px; padding-bottom: 10px;">
+                    <a target="_blank" class="header-icon icon-twitter" href="https://twitter.com/oojmedcom"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a target="_blank" class="header-icon icon-youtube" href="https://www.youtube.com/channel/UCDBUqE0Gd7fl_Pv8fvdqFIA"><i class="fab fa-youtube fa-2x"></i></a>
+                    <a target="_blank" class="header-icon icon-github" href="https://github.com/oojmed"><i class="fab fa-github fa-2x"></i></a>
+                </span>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/txttosl-web.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">TxtToSL Web</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        The web app for TxtToSL Online. Uses the TxtToSL API, which translates text into sign languages.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+                            href="https://txttosl.com">Translate</a>
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/TTSLO-Web"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/rart.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Rart</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Procedural random image / 'art' generator made in Rust.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+                            href="https://vps.oojmed.com/rart">Look</a>
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/rart"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/blog.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Oojmed Blog</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Jekyll Blog with our own custom theme.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+                            href="https://blog.oojmed.com">Read</a>
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/hikari-company"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/multiprint.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Web Multiprint</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        A web fingerprinter. It can identify browser and adblocker via existing and our own new techniques.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+                            href="https://oojmed.com/Web-Multiprint/">Fingerprint</a>
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/Web-Multiprint"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/ski.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Ski</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        A HTML5 Browser game made with HTML5 Canvas and JS. Inspired by SkiFree, by Chris Pirih in 1991. Made from scratch using our own engine.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+                            href="https://oojmed.com/ski/">Play</a>
+                            <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/ski"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/floppy-birb.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Floppy Birb</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        A HTML5 Browser game made with HTML5 Canvas and JS. A clone of Flappy Bird. Made from scratch using our own engine.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+                            href="https://oojmed.com/floppy-birb/">Play</a>
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/floppy-birb"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src="images/dvd.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">DVD Screensaver</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        A (bad) HTML5 recreation of that DVD Screensaver everyone goes on about.
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
+                            href="https://oojmed.com/dvd/">Watch</a>
+                    </div>
+                </div>
+            </div>
+
+            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+            <br /> <br /> <br /> <br /> <br />
+
+            <footer class="mdl-mini-footer">
+                <div class="mdl-mini-footer__left-section">
+                    <div class="mdl-logo">Copyright © 2019 Oojmed. All rights deserved.</div>
+                </div>
+                <div class="mdl-mini-footer__right-section">
+                    <ul class="mdl-mini-footer__link-list">
+                        <li><a href="https://oojmed.com/policies/privacy/">Privacy</a></li>
+                        <li><a href="https://oojmed.com/policies/terms/">Terms</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </main>
+    </div>
+    <script src="material.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+[submodule "Multiprint"]
+	path = Multiprint
+	url = https://github.com/oojmed/Multiprint.git
+[submodule "ski"]
+	path = ski
+	url = https://github.com/oojmed/ski.git
+[submodule "floppy-birb"]
+	path = floppy-birb
+	url = https://github.com/oojmed/floppy-birb.git
+[submodule "dvd"]
+	path = dvd
+	url = https://github.com/oojmed/dvd.git

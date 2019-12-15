@@ -1,0 +1,243 @@
+.header-icon {
+  padding-left: 23px;
+  margin-bottom: 30px;
+}
+
+.icon-twitter {
+  color: aqua;
+}
+.icon-twitter:hover {
+  color: lightseagreen;
+}
+
+.icon-youtube {
+  color: red;
+}
+.icon-youtube:hover {
+  color: darkred;
+}
+
+.icon-instagram {
+  color: pink;
+}
+.icon-instagram:hover {
+  color: lightsalmon;
+}
+
+.icon-github {
+  color: lightgray;
+}
+.icon-github:hover {
+  color: gray;
+}
+
+.project-github {
+  padding-top: 2px;
+  float: right;
+}
+
+.portfolio-header {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(images/header-bg.jpg);
+
+  color: #ffffff;
+}
+
+.portfolio-header .mdl-layout__header-row {
+  padding: 0;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mdl-layout__title {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.is-compact .mdl-layout__title span {
+  display: none;
+}
+
+.portfolio-logo-row {
+  min-height: 200px;
+}
+
+.is-compact .portfolio-logo-row {
+  min-height: auto;
+}
+
+.portfolio-logo {
+  background: url(images/logo.png) 50% no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 150px;
+  margin: auto auto 10px;
+}
+
+.is-compact .portfolio-logo {
+  height: 50px;
+  width: 50px;
+  margin-top: 7px;
+}
+
+.portfolio-navigation-row {
+  background-color: rgba(0, 0, 0, 0.08);
+
+  text-transform: uppercase;
+  height: 45px;
+}
+
+.portfolio-navigation-row  .mdl-navigation {
+  text-align: center;
+  max-width: 900px;
+  margin-left: -5%;
+  width: 90%;
+}
+
+.portfolio-navigation-row .mdl-navigation__link {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  line-height: 42px;
+}
+
+.portfolio-header .mdl-layout__drawer-button {
+    background-color: rgba(30, 30, 30, 0.75);
+}
+
+.mdl-navigation__link.is-active {
+  font-weight: bold;
+}
+
+.portfolio-navigation-row .is-active {
+  position: relative;
+  font-weight: bold;
+}
+
+.portfolio-navigation-row .is-active:after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255,64,129);
+  left: 15%;
+}
+
+.portfolio-card .mdl-card__title {
+  padding-bottom: 0;
+}
+
+.portfolio-card .mdl-card__supporting-text {
+  height:100%;
+}
+
+.portfolio-blog-card-full-bg {
+  background: url(images/example-blog03.jpg) center / cover;
+}
+
+.portfolio-blog-card-event-bg {
+  background: url(images/example-blog05.jpg) center / cover;
+}
+
+.portfolio-blog-card-strip-bg {
+  background: url(images/example-blog06.jpg) center / cover;
+}
+
+.portfolio-blog-card-compact .mdl-card__title {
+  padding-bottom: 0;
+}
+
+.portfolio-blog-card-bg > .mdl-card__actions {
+  height: 52px;
+  padding: 16px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+img.article-image {
+  width: 100%;
+  height: 140px;
+}
+
+.portfolio-max-width {
+  max-width: 900px;
+  margin: auto;
+}
+
+.portfolio-copy {
+  max-width: 700px;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.no-left-padding {
+  padding-left: 0;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
+}
+
+.padding-top {
+  padding: 10px 0 0;
+}
+
+.portfolio-share-btn {
+  position: relative;
+  float: right;
+  top: -4px;
+}
+
+footer {
+  background-image: url(images/footer-background.png);
+  background-size: cover;
+  height: 10%;
+}
+
+.mdl-layout__header-row .mdl-navigation__link {
+  color: #ffffff !important;
+}
+
+html {
+  color: rgba(255, 255, 255, 0.87) !important;
+}
+
+.mdl-layout__drawer {
+  background-color: rgba(50, 50, 50, 0.95);
+  color: rgba(255, 255, 255, 0.85);
+  border-right: rgba(0, 0, 0, 0.5);
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.mdl-layout__content {
+  background-color: #1f1f1f !important;
+}
+
+.mdl-card {
+  background-color: #3f3f3f !important;
+}
+
+.mdl-card__title {
+  color: #ffffff;
+}
+
+.mdl-card__supporting-text {
+  color: rgba(255,255,255,.9);
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
+  background-color: rgba(25, 25, 25, 0.95);
+}
+
+.mdl-layout__drawer {
+  width: 200px;
+}
