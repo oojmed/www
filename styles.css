@@ -1,44 +1,51 @@
-.header-icon {
-  padding-left: 23px;
+::-webkit-scrollbar-thumb {
+  background-color: #2a2c2e;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #181a1b;
+}
+
+::-webkit-scrollbar {
+  background-color: #1c1e1f;
+  color: #c5c1b9;
+}
+
+.header-icon{
+  padding-left: 20px;
   margin-bottom: 30px;
 }
 
 .icon-twitter {
-  color: aqua;
+  color: #4DD0E1;
 }
 .icon-twitter:hover {
-  color: lightseagreen;
+  color: #00ACC1;
 }
 
 .icon-youtube {
-  color: red;
+  color: #F44336;
 }
 .icon-youtube:hover {
-  color: darkred;
-}
-
-.icon-instagram {
-  color: pink;
-}
-.icon-instagram:hover {
-  color: lightsalmon;
+  color: #D32F2F;
 }
 
 .icon-github {
-  color: lightgray;
+  color: #BDBDBD;
 }
 .icon-github:hover {
-  color: gray;
+  color: #757575;
 }
 
 .project-github {
-  padding-top: 2px;
-  float: right;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .portfolio-header {
   position: relative;
-  background: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(images/header-bg.jpg);
+  background: rgb(60, 64, 66);
 
   color: #ffffff;
 }
@@ -83,7 +90,7 @@
 }
 
 .portfolio-navigation-row {
-  background-color: rgba(0, 0, 0, 0.08);
+  background-color: rgb(45, 47, 49);
 
   text-transform: uppercase;
   height: 45px;
@@ -104,7 +111,8 @@
 }
 
 .portfolio-header .mdl-layout__drawer-button {
-    background-color: rgba(30, 30, 30, 0.75);
+  background-color: rgba(28, 30, 31, 0.75);
+  color: rgb(208, 205, 198)
 }
 
 .mdl-navigation__link.is-active {
@@ -166,6 +174,8 @@ img.article-image {
 .portfolio-max-width {
   max-width: 900px;
   margin: auto;
+
+  margin-bottom: 100px;
 }
 
 .portfolio-copy {
@@ -195,9 +205,10 @@ img.article-image {
 }
 
 footer {
-  background-image: url(images/footer-background.png);
-  background-size: cover;
-  height: 10%;
+  background-color: rgb(61, 64, 67) !important;
+  height: 50px;
+
+  color: #E0E0E0 !important;
 }
 
 .mdl-layout__header-row .mdl-navigation__link {
@@ -209,21 +220,33 @@ html {
 }
 
 .mdl-layout__drawer {
-  background-color: rgba(50, 50, 50, 0.95);
+  background-color: rgba(48, 50, 53, 0.95);
   color: rgba(255, 255, 255, 0.85);
-  border-right: rgba(0, 0, 0, 0.5);
+  border-right: rgba(102, 102, 102, 0.5);
+
+  width: 175px;
 }
 
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.mdl-layout:not(.is-small-screen) .mdl-layout__content {
+  margin-top: 45px;
+}
+
 .mdl-layout__content {
-  background-color: #1f1f1f !important;
+  background-color: rgb(29, 31, 33) !important;
 }
 
 .mdl-card {
-  background-color: #3f3f3f !important;
+  background-color: rgb(59, 63, 65) !important;
+
+  width: 100%;
+  height: 100%;
+
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 
 .mdl-card__title {
@@ -235,9 +258,25 @@ html {
 }
 
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover {
-  background-color: rgba(25, 25, 25, 0.95);
+  background-color: rgba(24, 25, 26, 0.95);
 }
 
-.mdl-layout__drawer {
-  width: 200px;
+.card-parent:hover .mdl-card {
+  width: 105%;
+  height: 105%;
+
+  margin: -2.5%;
+
+  -moz-box-shadow: 5px 3px 10px rgba(0, 0, 0, .25);
+  -webkit-box-shadow: 5px 3px 10px rgba(0, 0, 0, .25);
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
 }

@@ -40,7 +40,7 @@
 
 <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header" style="transition-duration: 0.5s">
+    <header class="mdl-layout__header is-compact portfolio-header is-casting-shadow" style="transition-duration: 0.5s">
             <div class="mdl-layout__header-row portfolio-logo-row">
                 <span class="mdl-layout__title">
                     <div class="portfolio-logo"></div>
@@ -49,12 +49,8 @@
             </div>
             <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
                 <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                    <a class="mdl-navigation__link is-active" href="/">Projects</a>
-                    <a class="mdl-navigation__link" href="about">About</a>
-                    <span style="font-size: 30px; color:gray;">|</span>
                     <a class="mdl-navigation__link" href="https://blog.oojmed.com">Blog</a>
-                    <span style="font-size: 30px; color:gray;">|</span>
-                    <span style="padding-top: 10px; padding-bottom: 10px;">
+                    <span style="padding-top: 10px; padding-bottom: 5px;">
                         <a target="_blank" class="header-icon icon-twitter" href="https://twitter.com/oojmedcom"><i class="fab fa-twitter fa-2x"></i></a>
                         <a target="_blank" class="header-icon icon-youtube" href="https://www.youtube.com/channel/UCDBUqE0Gd7fl_Pv8fvdqFIA"><i class="fab fa-youtube fa-2x"></i></a>
                         <a target="_blank" class="header-icon icon-github" href="https://github.com/oojmed"><i class="fab fa-github fa-2x"></i></a>
@@ -64,13 +60,11 @@
         </header>
         <div class="mdl-layout__drawer mdl-layout--small-screen-only">
             <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
-                <a class="mdl-navigation__link is-active" href="/">Projects</a>
-                <a class="mdl-navigation__link" href="about">About</a>
+                <a class="mdl-navigation__link" href="https://blog.oojmed.com">Blog</a>
             </nav>
 
             <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"
                 style="width: 100%; bottom: 0; position: absolute;">
-                <a class="mdl-navigation__link" href="https://blog.oojmed.com">Blog</a>
                 <span style="padding-top: 10px; padding-bottom: 10px;">
                     <a target="_blank" class="header-icon icon-twitter" href="https://twitter.com/oojmedcom"><i class="fab fa-twitter fa-2x"></i></a>
                     <a target="_blank" class="header-icon icon-youtube" href="https://www.youtube.com/channel/UCDBUqE0Gd7fl_Pv8fvdqFIA"><i class="fab fa-youtube fa-2x"></i></a>
@@ -80,125 +74,264 @@
         </div>
         <main class="mdl-layout__content">
             <div class="mdl-grid portfolio-max-width">
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src="images/txttosl-web.jpg" border="0" alt="">
-                    </div>
+                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">TxtToSL Web</h2>
+                        <h2 class="mdl-card__title-text">Introduction</h2>
                     </div>
-                    <div class="mdl-card__supporting-text">
-                        The web app for TxtToSL Online. Uses the TxtToSL API, which translates text into sign languages.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                            href="https://txttosl.com">Translate</a>
-                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/TTSLO-Web"><i class="fab fa-github fa-2x"></i></a>
+
+                    <div style="margin-left: 10%;" class="mdl-grid portfolio-copy">
+                        <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding">
+                            <p>
+                                Oojmed is a non-profit software development group, created and run by a single student.
+                            </p>
+
+                            <p>
+                                Scroll down to see our projects, FAQ, and more.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src="images/rart.jpg" border="0" alt="">
+
+                <h3 style="margin-top: 50px;" class="mdl-cell mdl-cell--12-col mdl-typography--headline">Projects</h3>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://docs.txttosl.com"></a>
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">TxtToSL API Docs</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            The docs for TxtToSL's API. Based off the Carte Jekyll theme, with some fixes and modifications.
+                        </div>
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/TxtToSL-Docs"><i class="fab fa-github fa-2x"></i></a>
                     </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Rart</h2>
+                </div>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://app.txttosl.com"></a>
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">TxtToSL Web</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            A PWA (web app) which uses the TxtToSL API and Material Components Web to create a simple user interface for translating text into sign language.
+                        </div>
+                        <a target="_blank" class="project-github icon-github" href=https://github.com/oojmed/TxtToSL-Web"><i class="fab fa-github fa-2x"></i></a>
                     </div>
-                    <div class="mdl-card__supporting-text">
-                        Procedural random image / 'art' generator made in Rust.
+                </div>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://txttosl.com"></a>
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">TxtToSL Site</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            The marketing / about site for TxtToSL.
+                        </div>
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/TxtToSL-Marketing"><i class="fab fa-github fa-2x"></i></a>
                     </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                            href="https://vps.oojmed.com/rart">Look</a>
+                </div>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://github.com/oojmed/txttosl-api-node"></a>
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">TxtToSL API for Node</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            A simple Node module to allow using TxtToSL's API to translate text into sign languages.
+                        </div>
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/txttosl-api-node"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://oojmed.com"></a>
+
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Website</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            This, our website. Made with Material Design Lite.
+                        </div>
+
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/www"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://github.com/oojmed/NXSSetup"></a>
+
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">NXSSetup</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            A simple text-based to download (and compile) Nintendo Switch homebrew / hacking tools.
+                        </div>
+
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/NXSSetup"><i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://github.com/oojmed/rart"></a>
+
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Rart</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Procedural random image / 'art' generator made in Rust.
+                        </div>
+
                         <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/rart"><i class="fab fa-github fa-2x"></i></a>
                     </div>
                 </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src="images/blog.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Oojmed Blog</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        Jekyll Blog with our own custom theme.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                            href="https://blog.oojmed.com">Read</a>
-                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/hikari-company"><i class="fab fa-github fa-2x"></i></a>
-                    </div>
-                </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src="images/multiprint.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Multiprint</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        A web fingerprinter. It can identify browser and adblocker via existing and our own new techniques.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                            href="https://oojmed.com/Multiprint/">Fingerprint</a>
-                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/Web-Multiprint"><i class="fab fa-github fa-2x"></i></a>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://status.oojmed.com"></a>
+
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Oojmed Status</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            A statusfy status site with our own custom dark mode theme.
+                        </div>
+
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/status"><i class="fab fa-github fa-2x"></i></a>
                     </div>
                 </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src="images/ski.jpg" border="0" alt="">
-                    </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Ski</h2>
-                    </div>
-                    <div class="mdl-card__supporting-text">
-                        A HTML5 Browser game made with HTML5 Canvas and JS. Inspired by SkiFree, by Chris Pirih in 1991. Made from scratch using our own engine.
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                            href="https://oojmed.com/ski/">Play</a>
-                            <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/ski"><i class="fab fa-github fa-2x"></i></a>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://blog.oojmed.com"></a>
+
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Oojmed Blog</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Jekyll Blog with our own custom theme.
+                        </div>
+
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/blog"><i class="fab fa-github fa-2x"></i></a>
                     </div>
                 </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src="images/floppy-birb.jpg" border="0" alt="">
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://oojmed.com/Multiprint/"></a>
+
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Multiprint</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            A web fingerprinter. It can identify browser and adblocker via existing and our own new techniques.
+                        </div>
+
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/Multiprint"><i class="fab fa-github fa-2x"></i></a>
                     </div>
-                    <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">Floppy Birb</h2>
+                </div>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://github.com/oojmed/OojmedChat-Web"></a>
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Oojmed Chat Web App</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            The web app for the now deprecated / removed Oojmed Chat API. While the actual chat no longer works due to the API not being online, the design and CSS can still be used in future projects.
+                        </div>
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/OojmedChat-Web"><i class="fab fa-github fa-2x"></i></a>
                     </div>
-                    <div class="mdl-card__supporting-text">
-                        A HTML5 Browser game made with HTML5 Canvas and JS. A clone of Flappy Bird. Made from scratch using our own engine.
+                </div>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://oojmed.com/ski/"></a>
+
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Ski</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            A HTML5 Browser game made with HTML5 Canvas and JS. Inspired by SkiFree, by Chris Pirih in 1991. Made from scratch using our own engine.
+                        </div>
+
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/ski"><i class="fab fa-github fa-2x"></i></a>
                     </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                            href="https://oojmed.com/floppy-birb/">Play</a>
+                </div>
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://oojmed.com/floppy-birb/"></a>
+
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">Floppy Birb</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            A HTML5 Browser game made with HTML5 Canvas and JS. A clone of Flappy Bird. Made from scratch using our own engine.
+                        </div>
+
                         <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/floppy-birb"><i class="fab fa-github fa-2x"></i></a>
                     </div>
                 </div>
-                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
-                    <div class="mdl-card__media">
-                        <img class="article-image" src="images/dvd.jpg" border="0" alt="">
+
+                <div class="mdl-cell card-parent">
+                    <div class="mdl-card mdl-shadow--4dp portfolio-card">
+                        <a class="card-overlay" href="https://oojmed.com/dvd/"></a>
+
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">DVD Screensaver</h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            A (bad) HTML5 recreation of that DVD Screensaver everyone goes on about.
+                        </div>
+
+                        <a target="_blank" class="project-github icon-github" href="https://github.com/oojmed/floppy-birb"><i class="fab fa-github fa-2x"></i></a>
                     </div>
+                </div>
+
+                <div style="margin-top: 100px;" class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
                     <div class="mdl-card__title">
-                        <h2 class="mdl-card__title-text">DVD Screensaver</h2>
+                        <h2 class="mdl-card__title-text">FAQ</h2>
                     </div>
-                    <div class="mdl-card__supporting-text">
-                        A (bad) HTML5 recreation of that DVD Screensaver everyone goes on about.
+
+                    <div class="mdl-grid portfolio-copy">
+                        <div class="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding">
+                            <h5 style="margin-top: 0px;">1. Why non-profit?</h5>
+                            <p>
+                                We don't exist to make profit / money. We don't care about making money for profiting of ourselves. We make things as it's something to do, and something we are passionate about and have interests in.
+                            </p>
+
+                            <h5 style="margin-top: 40px;">2. How can I donate?</h5>
+                            <p>
+                                We (currently) do not accept any donations. Anyone or any site that is claiming to be us and taking donations are a scam.
+                            </p>
+                        </div>
                     </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent"
-                            href="https://oojmed.com/dvd/">Watch</a>
+                </div>
+
+                <div style="margin-top: 50px;" class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Contact</h2>
+                    </div>
+
+                    <div class="mdl-grid portfolio-copy">
+                        <div class="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding">
+                            <p>
+                                You can contact us through our email, <a href="mailto:contact@oojmed.com">contact@oojmed.com</a>. We also have social media accounts, linked on the header above.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
-            <br /> <br /> <br /> <br /> <br />
-
             <footer class="mdl-mini-footer">
                 <div class="mdl-mini-footer__left-section">
-                    <div class="mdl-logo">Copyright © 2019 Oojmed. All rights deserved.</div>
+                    <div class="mdl-logo">Copyright © 2020 Oojmed. All rights deserved.</div>
                 </div>
                 <div class="mdl-mini-footer__right-section">
                     <ul class="mdl-mini-footer__link-list">
