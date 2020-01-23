@@ -10,3 +10,6 @@
 [submodule "dvd"]
 	path = dvd
 	url = https://github.com/oojmed/dvd.git
+[submodule "formuliser"]
+	path = formuliser
+	url = https://github.com/oojmed/formuliser.git
